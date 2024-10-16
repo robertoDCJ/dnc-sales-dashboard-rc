@@ -1,14 +1,15 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Home, Leads, Login, Profile, Registration } from './pages'
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<div>Login</div>} />
-        <Route path="/cadastro" element={<div>Cadastro</div>} />
-        <Route path="/home" element={<div>Home</div>} />
-        <Route path="/leads" element={<div>Leads</div>} />
-        <Route path="/perfil" element={<div>Perfil</div>} />
+        <Route path="/" element={<Login />} />
+        <Route path="/cadastro" element={<Registration />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/leads" element={<Leads />} />
+        <Route path="/perfil" element={<Profile />} />
       </Routes>
     </Router>
   )
