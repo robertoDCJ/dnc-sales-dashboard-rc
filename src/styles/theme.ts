@@ -9,12 +9,12 @@ export const lightTheme: Theme = {
   appSkeletonTo: '#CCC',
   buttons: {
     alert: '#E80000',
-    alertcolor: '#FFF',
+    alertColor: '#FFF',
     alertHover: '#D80000',
     disabled: '#CCC',
     disabledColor: '#666',
     primary: '#0C70F2',
-    primarycolor: '#FFF',
+    primaryColor: '#FFF',
     primaryHover: '#0061DE',
   },
   card: {
@@ -49,12 +49,12 @@ export const darkTheme: Theme = {
   appSkeletonTo: '#21497D',
   buttons: {
     alert: '#E80000',
-    alertcolor: '#FFF',
+    alertColor: '#FFF',
     alertHover: '#D80000',
     disabled: '#313649',
     disabledColor: '#6D7B8E',
     primary: '#0C70F2',
-    primarycolor: '#FFF',
+    primaryColor: '#FFF',
     primaryHover: '#0061DE',
   },
   card: {
