@@ -7,12 +7,12 @@ export interface Theme {
   appSkeletonTo: string
   buttons: {
     alert: string
-    alertcolor: string
+    alertColor: string
     alertHover: string
     disabled: string
     disabledColor: string
     primary: string
-    primarycolor: string
+    primaryColor: string
     primaryHover: string
   }
   card: {
