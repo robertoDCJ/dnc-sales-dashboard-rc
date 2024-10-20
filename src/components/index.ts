@@ -1,3 +1,4 @@
+export { default as AvatarList } from './AvatarList'
 export * from './BannerImage'
 export * from './CardComponent'
 export { default as FormComponent } from './FormComponent'
