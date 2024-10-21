@@ -1,6 +1,7 @@
 export { default as AvatarList } from './AvatarList'
 export * from './BannerImage'
 export * from './CardComponent'
+export { default as CustomTable } from './CustomTable'
 export { default as FormComponent } from './FormComponent'
 export { default as Header } from './Header'
 export * from './Logo'
