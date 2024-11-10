@@ -1,7 +1,7 @@
 import { InputProps } from '@/types'
 import { useEffect, useState } from 'react'
 
-export const useValidation = (inputs: InputProps[]) => {
+export const useFormValidation = (inputs: InputProps[]) => {
   const [formValues, setFormValues] = useState(
     inputs.map((input) => input.value || '')
   )
@@ -9,6 +9,10 @@ export const useValidation = (inputs: InputProps[]) => {
 
   useEffect(() => {
     const allFieldsValid = inputs.every((input, index) => {
+      const value = formValues[index]
+      if (input.required && !value) {
+        return false
+      }
       if (input.type === 'email') {
         return /\S+@\S+\.\S+/.test(String(formValues[index]))
       }

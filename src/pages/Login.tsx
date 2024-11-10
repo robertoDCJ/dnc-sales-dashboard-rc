@@ -12,7 +12,7 @@ import {
 import { Box, Container, Grid } from '@mui/material'
 
 // HOOKS
-import { usePost, useValidation } from '@/hooks'
+import { useFormValidation, usePost } from '@/hooks'
 
 // UTILS
 import { jwtExpirationDateConverter, pxToRem } from '@/utils'
@@ -32,7 +32,7 @@ function Login() {
   const { data, loading, error, postData } = usePost<LoginData, LoginPostData>(
     'login'
   )
-  const { formValues, formValid, handleChange } = useValidation(inputs)
+  const { formValues, formValid, handleChange } = useFormValidation(inputs)
 
   const handleMessage = (): MessageProps => {
     if (!error) return { msg: '', type: 'success' }
