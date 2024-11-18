@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { BannerImage } from '@/components'
 import { render } from '@testing-library/react'
 import 'jest-styled-components'

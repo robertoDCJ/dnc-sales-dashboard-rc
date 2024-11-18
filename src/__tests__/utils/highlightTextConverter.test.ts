@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { highlightTextConverter } from '@/utils'
 
 describe('highlightTextConverter', () => {

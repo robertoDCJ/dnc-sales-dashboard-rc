@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 export type InputProps = React.InputHTMLAttributes<HTMLInputElement>
 export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>
 

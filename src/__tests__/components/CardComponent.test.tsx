@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { CardComponent } from '@/components'
 import { themesList } from '@/resources/themesList'
 import { Theme } from '@/types'

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { jwtExpirationDateConverter } from '@/utils'
 
 describe('jwtExpirationDateConverter', () => {
