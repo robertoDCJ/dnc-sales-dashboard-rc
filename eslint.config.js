@@ -11,6 +11,7 @@ export default tseslint.config(
       js.configs.recommended,
       ...tseslint.configs.recommended,
       'eslint-config-prettier',
+      'plugin:cypress/recommended',
     ],
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
