@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('Login Flow Correct Credentials', () => {
   beforeEach(() => {
     cy.visit('http://localhost:5173/')

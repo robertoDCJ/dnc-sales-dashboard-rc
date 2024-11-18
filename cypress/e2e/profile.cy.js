@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('Check if create profile page renders the correct components', () => {
   beforeEach(() => {
     cy.login('felipe-madeira@teste.com', '@$044557asA')

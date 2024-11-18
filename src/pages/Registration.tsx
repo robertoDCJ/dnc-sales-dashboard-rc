@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-undef */
 import { ChangeEvent, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 

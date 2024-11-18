@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { ChangeEvent, useEffect, useState } from 'react'
 
 // COMPONENTS

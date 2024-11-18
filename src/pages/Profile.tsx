@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { AppThemeContext } from '@/contexts/AppThemeContext'
 import Cookies from 'js-cookie'
 import { ChangeEvent, useContext, useEffect, useState } from 'react'

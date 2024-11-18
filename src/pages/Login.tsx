@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Cookies from 'js-cookie'
 import { jwtDecode } from 'jwt-decode'
 import { ChangeEvent, useEffect } from 'react'

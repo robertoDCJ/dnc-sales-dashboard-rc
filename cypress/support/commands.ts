@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-namespace */
+/* eslint-disable no-undef */
 /// <reference types="cypress" />
 
 declare namespace Cypress {
